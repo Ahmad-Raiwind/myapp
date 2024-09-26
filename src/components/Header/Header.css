@@ -1,0 +1,67 @@
+main section.section-1 nav {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+  }
+  main section.section-1 nav .nav-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  main section.section-1 nav .nav-main .nav-logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  main section.section-1 nav .nav-main .nav-logo a img {
+    display: block;
+    width: 120px;
+}
+main section.section-1 nav .nav-main .nav-logo a span {
+    background: rgb(234,176,82);
+    background: linear-gradient(24deg, rgba(234,176,82,1) 41%, rgba(234,85,115,1) 70%);
+    color: #fff;
+    padding: 7px 14px;
+    font-size: 12px;
+    border-radius: 20px;
+    text-align: center;
+}
+main section.section-1 nav .nav-main ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+main section.section-1 nav .nav-main ul li {
+    border-radius: 5px;
+}
+main section.section-1 nav .nav-main ul li a {
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    color: #83817e;
+    padding: 12px 15px;
+    border-radius: 5px;
+    transition: .2s background ease;
+}
+main section.section-1 nav .nav-main ul li a:hover {
+    background: rgb(128 128 128 / 23%);
+}
+main section.section-1 nav .nav-main ul:nth-of-type(2) li:last-child a {
+    color: #fff;
+    font-weight: 600;
+    background-color: #4977ea;
+    margin-left: 10px;
+}
+main section.section-1 nav .nav-main .nav-mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+main section.section-1 nav .nav-main .nav-mobile-menu img {
+    width: 100%;
+    display: block;
+}
