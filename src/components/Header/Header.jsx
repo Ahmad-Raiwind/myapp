@@ -3,7 +3,7 @@ import './Header.css';
 function Header() {
   return (
     <nav>
-                <div className="nav-main">
+                <div className="nav-main good">
                     <div className="nav-logo">
                         <a href="index.html"><img src="https://rvs-hosterr-waitlist-page.vercel.app/Assets/Logo.svg" alt=""/> <span>Hosterr is hiring!</span></a>
                     </div>
